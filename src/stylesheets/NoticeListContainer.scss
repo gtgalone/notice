@@ -1,0 +1,56 @@
+.noticeListWrap {
+    position:relative;
+    .row {margin-bottom:0px;}
+
+    .noticeDelete, .noticeWrite, .noticeList {
+        position:absolute;
+        top:-45px;
+        left:0px;
+    }
+
+    .noticeList {left:80px;}
+    .noticeWrite {left:160px;}
+
+    .noticeSearch {
+        position:absolute;
+        top:-45px;
+        right:0px;
+        input[type="text"] {display:inline-block; width:150px; height:33px; margin-bottom:0px; text-align:center;}
+    }
+
+    .noticeHeaderWrap {
+        margin:15px 0px;
+        .noticeHeader {
+            display:inline-block;
+            width:100%;
+            height:34px;
+            line-height:36px;
+            text-align:center;
+        }
+    }
+
+    .noticeBodyWrap {
+        min-height:200px;
+        margin:10px 0px;
+        .noticeBody {
+            display:inline-block;
+            width:100%;
+            height:34px;
+            line-height:36px;
+            .siteName, .title, .createdDate {color:#000; text-align:center;}
+            .title {text-align:left; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+        }
+
+        .noticeBody > span {
+            text-align:center;
+        }
+    }
+
+    .pagination {
+        position:relative;
+        left:50%;
+        transform:translateX(-50%);
+        margin-top:30px;
+        li {cursor:pointer;}
+    }
+}

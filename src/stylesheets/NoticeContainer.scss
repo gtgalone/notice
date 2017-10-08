@@ -1,0 +1,12 @@
+.noticeContainer {
+    width:800px;
+    position:relative;
+    margin:0 auto;
+    ul {padding:0px;}
+    li {list-style:none;}
+    h1 {text-align:center;}
+    input[type="checkbox"] {margin-left:0px;}
+
+
+    .gobackButton {position:absolute; right:0px; bottom:-40px;}
+}

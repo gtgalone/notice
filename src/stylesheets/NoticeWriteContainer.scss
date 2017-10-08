@@ -1,0 +1,12 @@
+.noticeWriteWrap {
+    .validation {position:absolute; top:0px; color:#ff0000; font-size:9px;}
+    .select2 {display:inline-block; width:20% !important;}
+    .noticeTitle {
+        display:inline-block;
+        width:80%;
+        position:relative;
+        input {width:100%;}
+    }
+    .note-editor {position:relative;}
+    .submit {position:absolute; left:50%; bottom:-40px; transform:translateX(-50%);}
+}
